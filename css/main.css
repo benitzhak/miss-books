@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    font-family: 'Courgette', cursive;
+    /* background-image: url('/img/books.jpg'); */
+    object-fit: cover;
+}
+
+body {
+    /* background-image: linear-gradient(lightseagreen, lightskyblue, blue); */
+    /* color: lightskyblue; */
+    color: black;
+    font-size: 14px;
+}
+
+h3 {
+    color: white;
+}
+
+input {
+    width: 100px;
+}
+
+button {
+    margin: 20px 0;
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    background-color: rgb(32, 120, 178);
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: lightslategray;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.app-header {
+    background-color: lightseagreen;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.book-preview {
+    border: 5px solid lightseagreen;
+    padding: 30px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.book-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.app-footer {
+    background-color: lightseagreen;
+    padding: 20px;
+    text-align: center;
+}
+
+.app-main {
+    height: 90vh;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.sale {
+    color: red;
+}
+
+.books-filter {
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'Courgette', cursive;
+}
+
+.book-details {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    background-color: lightseagreen;
+    width: 100%;
+}
+
+.details-container {
+    width: 400px;
+}
+
+.key {
+    font-weight: bold;
+    color: whitesmoke;
+    color: rgb(32, 120, 178);
+}
+
+.close {
+    position: relative;
+    left: 40%;
+}
